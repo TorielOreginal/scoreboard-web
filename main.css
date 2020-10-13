@@ -1,0 +1,37 @@
+*{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    background-color: #0B7189;
+    border: none;
+    border-radius: 10px;
+    width: 75px;
+    height: 50px;
+    margin: 10px;
+}
